@@ -5,8 +5,7 @@ public class MaiorMenor {
     public static int menornum;
     public static int num;
     public static void main(String[] args) {
-       //int menornum=;
-       //int maiornum=0; 
+
        int x =0;
        int i =0;
 
