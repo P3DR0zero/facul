@@ -1,7 +1,9 @@
 package alpha.alpha_persistence;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -10,7 +12,15 @@ public static void main(String[] args) throws IOException {
 
     File arquivo = new File("C:\\Users\\12824125995\\Desktop/Arquivo.txt");
     FileWriter tecl = new FileWriter( arquivo, true );
-    //BufferedWriter bw = new BufferedWriter( tecl );
+    FileReader arquivo1 = new FileReader("Arquivo.txt");
+    BufferedReader br = new BufferedReader( arquivo1 );
+    
+    try {
+        String linha = br.readLine();
+    } catch (Exception e) {
+        // TODO: handle exception
+    }
+    
     try {
         if ( arquivo.createNewFile()) {
             System.out.println("Arquivo criado");
