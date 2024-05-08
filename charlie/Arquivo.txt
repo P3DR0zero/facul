@@ -1,0 +1,4 @@
+Faça um algoritmo em Java que receba a idade de uma pessoa e diga se ela pode votar ou não, seguindo a lógica de que menores de 16 
+anos são proibidos de votar, pessoas com 18 anos completos até 69 anos completos são obrigadas a votar e pessoas com 16 e 17 anos 
+completos ou 70 anos completos para cima possuem voto facultativo. O algoritmo deverá executar essa lógica até que o usuário digite
+ uma idade negativa.
